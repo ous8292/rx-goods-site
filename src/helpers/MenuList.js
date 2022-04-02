@@ -1,59 +1,78 @@
-import Logo from "../assets/logo.jpeg";
+import Logo from '../assets/logo.jpeg';
 
-export const MenuList = [
+const MenuList = [
   {
-    name: "cookie",
+    name: 'Cassic Jumbo Chocolate Chip Cookies by the Dozen - Single Pack',
     image: Logo,
-    price: 12.99,
+    description: 'Single packs, cookies are wrapped in pack of one',
+    price: 21.0,
   },
   {
-    name: "cookie2",
+    name: 'Cassic Jumbo Chocolate Chip Cookies by the Dozen - Twin Pack',
     image: Logo,
-    price: 12.99,
+    description: 'Twin packs, cookies are wrapped in pack of two',
+    price: 20.99,
   },
   {
-    name: "cookie3",
+    name: 'Cassic Jumbo Chocolate Chip Cookies by the Dozen - Boxed',
     image: Logo,
-    price: 12.99,
+    description: 'Boxed, cookies are boxed together',
+    price: 19.0,
   },
   {
-    name: "cookie4",
+    name: 'Classic Jumbo White Chocolate Macadamian Nut cookies by the Dozen - Single',
     image: Logo,
-    price: 12.99,
+    description: 'Single packs, cookies are wrapped in pack of one',
+    price: 24.0,
   },
   {
-    name: "cookie5",
+    name: 'Classic Jumbo White Chocolate Macadamian Nut cookies by the Dozen - Double',
     image: Logo,
-    price: 12.99,
+    description: 'Twin packs, cookies are wrapped in pack of two',
+    price: 23.0,
   },
   {
-    name: "cookie6",
+    name: 'Classic Jumbo White Chocolate Macadamian Nut cookies by the Dozen - Boxed',
     image: Logo,
-    price: 12.99,
+    description: 'Boxed, cookies are boxed together',
+    price: 22.0,
   },
   {
-    name: "cookie6",
+    name: 'Classic Jumbo Sugar Cookies by the Dozen - Single',
     image: Logo,
-    price: 12.99,
+    description: 'Single packs, cookies are wrapped in pack of one',
+    price: 18.0,
   },
   {
-    name: "cookie6",
+    name: 'Classic Jumbo Sugar Cookies by the Dozen - Double',
     image: Logo,
-    price: 12.99,
+    description: 'Twin packs, cookies are wrapped in pack of two',
+    price: 17.0,
   },
   {
-    name: "cookie6",
+    name: 'Classic Jumbo Sugar Cookies by the Dozen - Boxed',
     image: Logo,
-    price: 12.99,
+    description: 'Boxed, cookies are boxed together',
+    price: 16.0,
   },
   {
-    name: "cookie6",
+    name: 'Gaint Chocolate Chip Cookies by the 1/2 Dozen - Single',
     image: Logo,
-    price: 12.99,
+    description: 'Single packs, cookies are wrapped in pack of one',
+    price: 21.0,
   },
   {
-    name: "cookie6",
+    name: 'Gaint White Chocolate Macadamia Nut Cookies by the 1/2 Dozen - Single',
     image: Logo,
-    price: 12.99,
+    description: 'Single packs, cookies are wrapped in pack of one',
+    price: 24.0,
+  },
+  {
+    name: 'Gaint Sugar Cookies by the 1/2 Dozen - Single',
+    image: Logo,
+    description: 'Single packs, cookies are wrapped in pack of one',
+    price: 18.0,
   },
 ];
+
+export default MenuList;
