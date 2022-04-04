@@ -7,8 +7,7 @@ function Contact() {
     <div className="contact">
       <div
         className="leftSide"
-        style={{ backgroundImage: `url(${Cookie})` }}
-      ></div>
+        style={{ backgroundImage: `url(${Cookie})` }}></div>
       <div className="rightSide">
         <h1> Contact Us</h1>
 
@@ -22,8 +21,7 @@ function Contact() {
             rows="6"
             placeholder="Enter message..."
             name="message"
-            required
-          ></textarea>
+            required></textarea>
           <button type="submit"> Send Message</button>
         </form>
       </div>
