@@ -1,6 +1,6 @@
 import Logo from '../assets/logo.jpeg';
 
-const MenuList = [
+export const MenuList = [
   {
     name: 'Cassic Jumbo Chocolate Chip Cookies by the Dozen - Single Pack',
     image: Logo,
@@ -74,5 +74,3 @@ const MenuList = [
     price: 18.0,
   },
 ];
-
-export default MenuList;
