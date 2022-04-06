@@ -171,6 +171,11 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+### eslint can be used with the build command
+ `npm run build`
+ 
+### prettier format command can be run with
+` npm run format`
 <!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_ -->
