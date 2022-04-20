@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="src/assets/demo-screenshot.png" alt="Logo">
 
 A simple React project to show off my friends baking business. has a landing page, menu, and simple contact form. I hope to build this project out further in the future with blog posts also.
 
