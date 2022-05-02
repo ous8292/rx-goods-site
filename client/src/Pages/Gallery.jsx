@@ -1,10 +1,19 @@
-import React, { useState } from 'react';
-import images from '../api-mock.json';
+import React, { useEffect, useState } from 'react';
+import { getImages } from '../API';
+// import images from '../api-mock.json';
 import '../styles/Gallery.css';
 
 function Gallery() {
   //initilizing state hook with our images from api data
-  const [imageList, setImageList] = useState(images.resources);
+  const [imageList, setImageList] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const responseJson = await getImages();
+      setImageList(responseJson.resources);
+    };
+    fetchData();
+  }, []);
 
   return (
     <div className="image-grid">
