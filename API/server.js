@@ -9,9 +9,21 @@ const app = express();
 app.use(cors());
 app.use(json());
 
+const { parsed: config } = dotenv.config();
+
+const BASE_URL = `https://api.cloudinary.com/v1_1/${config.CLOUD_NAME}/resources/image`;
+const auth = {
+  username: config.API_KEY,
+  password: config.API_SECRET,
+};
+
 app.get("/photos", async (req, res) => {
-  return req.send({ message: "hello" });
+  const response = await axios.get(BASE_URL, {
+    auth,
+  });
+
+  return res.send(response.data);
 });
 
-const PORT = 7000;
+const PORT = 6000;
 app.listen(PORT, console.log(`server running on port ${PORT}`));
