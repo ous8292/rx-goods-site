@@ -25,5 +25,5 @@ app.get("/photos", async (req, res) => {
   return res.send(response.data);
 });
 
-const PORT = 6000;
+const PORT = 3500;
 app.listen(PORT, console.log(`server running on port ${PORT}`));
