@@ -34,9 +34,15 @@ function Gallery() {
           <img src={image.url} alt={image.public_id}></img>
         ))}
       </div>
-      <div className="load-button">
+      <div className="load-more">
         {nextCursor && (
-          <button onClick={handleLoadMoreButtonClick}> Load More</button>
+          <button
+            className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mt-10"
+            onClick={handleLoadMoreButtonClick}
+          >
+            {' '}
+            Load More
+          </button>
         )}
       </div>
     </>

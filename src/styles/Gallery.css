@@ -7,7 +7,7 @@ img {
 .image-grid {
   display: grid;
   gap: 0.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .load-more {
@@ -15,10 +15,10 @@ img {
   justify-content: center;
 }
 
-.load-more button {
-  font-size: 36px;
+/* .load-more button {
+  font-size: 10px;
   border-radius: 10px;
   border: none;
   padding: 18px;
   margin: 3rem 0 3rem 0;
-}
+} */
