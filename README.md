@@ -188,7 +188,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 ## Roadmap
 
 - [ ] Order form
-- [ ] Image Gallery
+- [X] Image Gallery
 - [ ] Blog Posts
 - [ ] Hosting on AWS
 - [ ] Instagram or Facebook API integration
