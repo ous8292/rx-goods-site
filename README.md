@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ous8292/rx-goods-site">
-    <img src="src/assets/logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="client/src/assets/logo.jpeg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">RX Baked Goods</h3>
@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="src/assets/demo-screenshot.png" alt="Logo">
+<img src="client/src/assets/demo-screenshot.png" alt="Logo">
 
 A simple React project to show off my friends baking business. has a landing page, menu, and simple contact form. I hope to build this project out further in the future with blog posts also.
 
