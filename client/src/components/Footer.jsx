@@ -1,11 +1,12 @@
 import React from 'react';
+import '../styles/Footer.css';
 
 function Footer() {
   return (
-    <div>
-      <footer className="text-center bg-stone-900 text-white inset-x-0 bottom-0">
+    <div className="">
+      <footer className="footer text-center bg-stone-900 text-white mt-10">
         <div className="container px-6 pt-6">
-          <div className="flex justify-center mb-6">
+          <div className="">
             <a
               href="#!"
               type="button"
@@ -27,7 +28,6 @@ function Footer() {
                 />
               </svg>
             </a>
-
             <a
               href="#!"
               type="button"
@@ -49,7 +49,6 @@ function Footer() {
                 />
               </svg>
             </a>
-
             <a
               href="#!"
               type="button"
@@ -71,7 +70,6 @@ function Footer() {
                 />
               </svg>
             </a>
-
             <a
               href="#!"
               type="button"
