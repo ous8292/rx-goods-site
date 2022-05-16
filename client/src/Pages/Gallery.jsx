@@ -31,7 +31,11 @@ function Gallery() {
     <>
       <div className="image-grid">
         {imageList.map(image => (
-          <img src={image.url} alt={image.public_id}></img>
+          <img
+            src={image.url}
+            alt={image.public_id}
+            className="img-gallery"
+          ></img>
         ))}
       </div>
       <div className="load-more">
